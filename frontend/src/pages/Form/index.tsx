@@ -31,7 +31,7 @@ function Form() {
                             <option>4</option>
                             <option>5</option>
                         </select>
-                    </div>
+                    </div> 
                     <div className="dsmovie-form-btn-container">
                         <button type="submit" className="btn btn-primary dsmovie-btn">Salvar</button>
                     </div>
