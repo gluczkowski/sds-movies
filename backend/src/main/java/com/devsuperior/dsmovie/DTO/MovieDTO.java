@@ -1,19 +1,21 @@
 package com.devsuperior.dsmovie.DTO;
 
+import java.util.HashSet;
+import java.util.Set;
+
+import javax.persistence.OneToMany;
+
 import com.devsuperior.dsmovie.entities.Movie;
+import com.devsuperior.dsmovie.entities.Score;
 
 public class MovieDTO {	
 	
 	private Long id;
 	
-	private String title;
-	
-	private Double score;
-	
-	private Integer count;
-	
+	private String title;	
+	private Double score;	
+	private Integer count;	
 	private String image;
-
 	
 	public MovieDTO() {
 		
@@ -85,8 +87,7 @@ public class MovieDTO {
 	public void setImage(String image) {
 		this.image = image;
 	}
-	
-	
+
 	
 }
 
